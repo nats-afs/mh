@@ -167,6 +167,7 @@ footer.page-footer {
           display: none; }
 
   #notes .notes-wrapper {
+    top: 15%;
     width: 89%; }
 
   #nav-header {
