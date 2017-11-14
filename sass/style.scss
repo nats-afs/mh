@@ -210,6 +210,14 @@ nav.navbar-main {
 }
 
 footer.page-footer{
+  background-image: url('../img/palacio_municipal.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: -55px;
+}
+
+footer.page-footer{
   background-color: $primary-fill-color;
   .footer-copyright{
   }

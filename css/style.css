@@ -148,6 +148,13 @@ nav.navbar-main {
       color: #fff; }
 
 footer.page-footer {
+  background-image: url("../img/palacio_municipal.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: -55px; }
+
+footer.page-footer {
   background-color: #003b8d; }
 
 @media only screen and (max-width: 992px) {
