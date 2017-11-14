@@ -154,6 +154,12 @@ nav.navbar-main {
 #events {
   .events-wrapper {
     margin: 8em auto;
+    h1{
+      color: rgba(145, 139, 139, 0.39);
+      font-size: 100pt;
+      font-family: 'Lora', Arial, sans-serif;
+      margin-bottom: -50px;
+    }
      a {
        margin: 0 auto;
     i {
@@ -262,6 +268,13 @@ footer.page-footer{
       }
     h2 {
       font-size: 24pt;
+    }
+  }
+  #events .events-wrapper{
+    margin: 4em auto;
+    h1{
+      font-size: 48pt;
+      margin-bottom: 30px;
     }
   }
 }

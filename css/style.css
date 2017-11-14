@@ -108,6 +108,11 @@ nav.navbar-main {
 
 #events .events-wrapper {
   margin: 8em auto; }
+  #events .events-wrapper h1 {
+    color: rgba(145, 139, 139, 0.39);
+    font-size: 100pt;
+    font-family: 'Lora', Arial, sans-serif;
+    margin-bottom: -50px; }
   #events .events-wrapper a {
     margin: 0 auto; }
     #events .events-wrapper a i {
@@ -185,6 +190,12 @@ footer.page-footer {
     .news-wrapper .valign-wrapper {
       display: block; }
     .news-wrapper h2 {
-      font-size: 24pt; } }
+      font-size: 24pt; }
+
+  #events .events-wrapper {
+    margin: 4em auto; }
+    #events .events-wrapper h1 {
+      font-size: 48pt;
+      margin-bottom: 30px; } }
 
 /*# sourceMappingURL=style.css.map */
