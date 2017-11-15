@@ -1,9 +1,8 @@
 header {
-  background-image: url("../img/background2.png");
-  background-attachment: fixed;
+  background-image: url("https://preview.lsvr.sk/pressville/wp-content/uploads/sites/2/2017/05/hero-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -55px; }
+  background-position: center center; }
   header .header-wrapper {
     color: #fff;
     height: 350px;
@@ -146,13 +145,6 @@ nav.navbar-main {
     color: #fff; }
     #events .events-content .blue a {
       color: #fff; }
-
-footer.page-footer {
-  background-image: url("../img/palacio_municipal.png");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position-y: -55px; }
 
 footer.page-footer {
   background-color: #003b8d; }
