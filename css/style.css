@@ -125,7 +125,7 @@ nav.navbar-main {
     max-height: none; }
     #events .events-content .card-image img {
       height: inherit;
-      width: auto; }
+      width: 100%; }
   #events .events-content .events-navigation {
     position: relative; }
     #events .events-content .events-navigation a {
@@ -150,6 +150,8 @@ nav.navbar-main {
   margin: 0 auto 5em auto; }
   #media h4 {
     padding: 1em 0; }
+  #media .documentos .docs-wrapper {
+    padding: 0 1.5em; }
   #media .documentos i {
     font-size: 16pt;
     color: rgba(63, 78, 142, 0.39); }
@@ -172,6 +174,13 @@ nav.navbar-main {
 
 footer.page-footer {
   background-color: #003b8d; }
+  footer.page-footer a {
+    color: #fff; }
+  footer.page-footer i.fa {
+    padding: .5em; }
+  footer.page-footer p.slogan {
+    font-family: 'Calligraffitti', cursive;
+    font-size: 20pt; }
 
 @media only screen and (max-width: 992px) {
   header {
@@ -219,6 +228,35 @@ footer.page-footer {
     margin: 4em auto; }
     #events .events-wrapper h1 {
       font-size: 48pt;
-      margin-bottom: 30px; } }
+      margin-bottom: 30px; }
+
+  #media {
+    margin: 0 auto 5em auto; }
+    #media h4 {
+      padding: 1em 0;
+      text-align: center;
+      border-bottom: 1px solid rgba(145, 139, 139, 0.39); }
+    #media h5 {
+      font-size: 14pt; }
+    #media p {
+      font-size: 12pt; }
+    #media span {
+      font-size: 10pt; }
+    #media h5,
+    #media p,
+    #media span {
+      margin: 0 auto 5px; }
+    #media .lugares > .row,
+    #media .galeria > .row {
+      display: flex;
+      align-items: center; }
+    #media .documentos > .row {
+      padding: .5em 2em; }
+    #media .documentos i {
+      font-size: 16pt;
+      color: rgba(63, 78, 142, 0.39); }
+    #media .documentos a {
+      font-size: 12pt;
+      padding: .25em .5em; } }
 
 /*# sourceMappingURL=style.css.map */

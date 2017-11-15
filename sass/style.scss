@@ -5,7 +5,7 @@ $primary-text-color: #fff;
 header {
   //  background-image: url('https://preview.lsvr.sk/pressville/wp-content/uploads/sites/2/2017/05/hero-1.jpg');
   background-image: url('https://preview.lsvr.sk/pressville/wp-content/uploads/sites/2/2017/05/hero-1.jpg');
-//  background-attachment: fixed;
+  //  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -154,21 +154,21 @@ nav.navbar-main {
 #events {
   .events-wrapper {
     margin: 8em auto;
-    h1{
+    h1 {
       color: rgba(145, 139, 139, 0.39);
       font-size: 100pt;
       font-family: 'Lora', Arial, sans-serif;
       margin-bottom: -50px;
     }
-     a {
-       margin: 0 auto;
-    i {
-      vertical-align: middle;
+    a {
+      margin: 0 auto;
+      i {
+        vertical-align: middle;
+      }
+      &:hover {
+        color: $primary-fill-color;
+      }
     }
-    &:hover {
-      color: $primary-fill-color;
-    }
-  }
   }
   .events-content {
     position: relative;
@@ -177,7 +177,7 @@ nav.navbar-main {
       max-height: none;
       img {
         height: inherit;
-        width: auto;
+        width: 100%;
       }
     }
     .events-navigation {
@@ -209,24 +209,27 @@ nav.navbar-main {
   }
 }
 
-#media{
+#media {
   margin: 0 auto 5em auto;
-  h4{
+  h4 {
     padding: 1em 0;
   }
-  .documentos{
-    i{
+  .documentos {
+    .docs-wrapper{
+      padding: 0 1.5em;
+    }
+    i {
       font-size: 16pt;
       color: rgba(63, 78, 142, 0.39);
     }
-    a{
+    a {
       font-size: 12pt;
       padding: .25em .5em;
     }
   }
 }
 
-.fixed-links{
+.fixed-links {
   background-color: #fff;
   border: 1px solid rgba(145, 139, 139, 0.39);
   border-radius: 5px 0 0 5px;
@@ -236,18 +239,25 @@ nav.navbar-main {
   right: -1px;
   width: 60px;
   z-index: 50000;
-  img{
+  img {
     padding: .25em;
   }
 }
 
-footer.page-footer{
-
-}
-
-footer.page-footer{
+footer.page-footer {
   background-color: $primary-fill-color;
-  .footer-copyright{
+  a{
+    color: $primary-text-color;
+  }
+  i.fa{
+    padding: .5em;
+  }
+  p.slogan{
+    font-family: 'Calligraffitti', cursive;
+    font-size: 20pt;
+  }
+  .footer-copyright {
+    
   }
 }
 
@@ -277,11 +287,11 @@ footer.page-footer{
       }
     }
   }
-  #notes{
+  #notes {
     .notes-wrapper {
       top: 15%;
-	  width: 89%;
-}
+      width: 89%;
+    }
   }
   #nav-header {
     background-color: $primary-fill-color;
@@ -299,18 +309,59 @@ footer.page-footer{
     .news-title {
       padding: 1em 2em;
     }
-     .valign-wrapper {
-        display: block;
-      }
+    .valign-wrapper {
+      display: block;
+    }
     h2 {
       font-size: 24pt;
     }
   }
-  #events .events-wrapper{
+  #events .events-wrapper {
     margin: 4em auto;
-    h1{
+    h1 {
       font-size: 48pt;
       margin-bottom: 30px;
+    }
+  }
+
+  #media {
+    margin: 0 auto 5em auto;
+    h4 {
+      padding: 1em 0;
+      text-align: center;
+      border-bottom: 1px solid rgba(145, 139, 139, 0.39);
+    }
+    h5 {
+      font-size: 14pt;
+    }
+    p {
+      font-size: 12pt;
+    }
+    span {
+      font-size: 10pt;
+    }
+    h5,
+    p,
+    span {
+      margin: 0 auto 5px;
+    }
+    .lugares > .row,
+    .galeria > .row {
+      display: flex;
+      align-items: center;
+    }
+    .documentos {
+      &>.row{
+        padding: .5em 2em;
+      }
+      i {
+        font-size: 16pt;
+        color: rgba(63, 78, 142, 0.39);
+      }
+      a {
+        font-size: 12pt;
+        padding: .25em .5em;
+      }
     }
   }
 }
