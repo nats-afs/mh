@@ -209,6 +209,38 @@ nav.navbar-main {
   }
 }
 
+#media{
+  margin: 0 auto 5em auto;
+  h4{
+    padding: 1em 0;
+  }
+  .documentos{
+    i{
+      font-size: 16pt;
+      color: rgba(63, 78, 142, 0.39);
+    }
+    a{
+      font-size: 12pt;
+      padding: .25em .5em;
+    }
+  }
+}
+
+.fixed-links{
+  background-color: #fff;
+  border: 1px solid rgba(145, 139, 139, 0.39);
+  border-radius: 5px 0 0 5px;
+  padding: .25em;
+  position: fixed;
+  top: 300px;
+  right: -1px;
+  width: 60px;
+  z-index: 50000;
+  img{
+    padding: .25em;
+  }
+}
+
 footer.page-footer{
 
 }
