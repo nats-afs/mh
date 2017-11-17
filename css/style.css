@@ -69,6 +69,8 @@ nav.navbar-main {
     padding: 3em 2em; }
   .news-wrapper .news-content {
     position: relative; }
+    .news-wrapper .news-content > .row {
+      margin-bottom: 0; }
     .news-wrapper .news-content .news-navigation {
       position: relative; }
       .news-wrapper .news-content .news-navigation a {
@@ -83,6 +85,8 @@ nav.navbar-main {
           right: -35px; }
       .news-wrapper .news-content .news-navigation i {
         color: #003b8d; }
+    .news-wrapper .news-content .carousel {
+      height: 340px !important; }
   .news-wrapper h2 {
     font-family: 'Lora', Arial, sans-serif;
     font-size: 30pt; }
@@ -167,7 +171,7 @@ nav.navbar-main {
   position: fixed;
   top: 300px;
   right: -1px;
-  width: 60px;
+  width: 65px;
   z-index: 50000; }
   .fixed-links img {
     padding: .25em; }

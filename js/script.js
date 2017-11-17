@@ -1,5 +1,17 @@
 $(document).ready(function () {
   
+  
+  $('.carousel.carousel-slider').carousel({fullWidth: true});
+  
+  
+  $('.news-nav-left').on('click', function(){
+    $('.carousel').carousel('prev');
+  })
+  
+  $('.news-nav-right').on('click', function(){
+    $('.carousel').carousel('next');
+  })
+  
   $(".button-collapse").sideNav();
   $('.parallax').parallax();
   
