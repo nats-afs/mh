@@ -2,9 +2,14 @@
 $primary-fill-color: #003b8d;
 $primary-text-color: #fff;
 
+p.slogan {
+  font-family: 'Calligraffitti', cursive;
+  font-size: 20pt;
+}
+
 header {
   background-image: url('https://preview.lsvr.sk/pressville/wp-content/uploads/sites/2/2017/05/hero-1.jpg');
-//  background-image: url('../img/palacio_municipal.png');
+  //  background-image: url('../img/palacio_municipal.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -99,7 +104,7 @@ nav.navbar-main {
     padding: 3em 2em;
   }
   .news-content {
-    &>.row{
+    & > .row {
       margin-bottom: 0;
     }
     position: relative;
@@ -122,7 +127,7 @@ nav.navbar-main {
         color: $primary-fill-color;
       }
     }
-    .carousel{
+    .carousel {
       height: 340px !important;
     }
   }
@@ -220,7 +225,7 @@ nav.navbar-main {
     padding: 1em 0;
   }
   .documentos {
-    .docs-wrapper{
+    .docs-wrapper {
       padding: 0 1.5em;
     }
     i {
@@ -251,19 +256,13 @@ nav.navbar-main {
 
 footer.page-footer {
   background-color: $primary-fill-color;
-  a{
+  a {
     color: $primary-text-color;
   }
-  i.fa{
+  i.fa {
     padding: .5em;
   }
-  p.slogan{
-    font-family: 'Calligraffitti', cursive;
-    font-size: 20pt;
-  }
-  .footer-copyright {
-    
-  }
+  .footer-copyright {}
 }
 
 @media only screen and (max-width: 992px) {
@@ -356,7 +355,7 @@ footer.page-footer {
       align-items: center;
     }
     .documentos {
-      &>.row{
+      & > .row {
         padding: .5em 2em;
       }
       i {

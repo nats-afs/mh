@@ -1,3 +1,7 @@
+p.slogan {
+  font-family: 'Calligraffitti', cursive;
+  font-size: 20pt; }
+
 header {
   background-image: url("https://preview.lsvr.sk/pressville/wp-content/uploads/sites/2/2017/05/hero-1.jpg");
   background-repeat: no-repeat;
@@ -182,9 +186,6 @@ footer.page-footer {
     color: #fff; }
   footer.page-footer i.fa {
     padding: .5em; }
-  footer.page-footer p.slogan {
-    font-family: 'Calligraffitti', cursive;
-    font-size: 20pt; }
 
 @media only screen and (max-width: 992px) {
   header {
