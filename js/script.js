@@ -1,6 +1,8 @@
 $(document).ready(function () {
   
   
+  $('section#carousel .carousel.carousel-slider').carousel({fullWidth: true, indicators:true});
+  
   $('.carousel.carousel-slider').carousel({fullWidth: true});
   
   
